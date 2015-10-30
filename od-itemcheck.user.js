@@ -2,7 +2,7 @@
 // @name        Overdrive Item Availability
 // @namespace   overdrive.com
 // @description Shows currently/total avaiable copies on overdrive
-// @include     https://*.libraryreserve.com/*/MyCompleteWishListAvail.htm*
+// @include     https://*.libraryreserve.com/*/MyCompleteWishList*.htm*
 // @run-at      document-end
 // @version     1
 // @grant       none
