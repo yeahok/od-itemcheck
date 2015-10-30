@@ -12,6 +12,7 @@ for (i = 0; i < pics.length; i++) {
   var url = pics[i].getAttribute('data-original');
   pics[i].setAttribute('src', url);
 }
+
 function GM_main() {
   window.onload = function () {
     var x = document.getElementsByClassName('title-data');
@@ -25,7 +26,10 @@ function GM_main() {
     }
   }
 }
+
 addJS_Node(null, null, GM_main);
+//Code from http://stackoverflow.com/a/13734859
+//This enables the script to run on load properly
 //-- This is a standard-ish utility function:
 function addJS_Node(text, s_URL, funcToRun, runOnLoad) {
   var D = document;
