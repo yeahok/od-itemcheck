@@ -1,2 +1,5 @@
-# od-itemcheck
+# Overdrive Item Availability Overlay
 Userscript for checking Overdrive wishlist item availability
+
+Not sure how to add the overlay while retaining lazy loading so the lazy loading is disabled.
+This means that the current script setting allows it to show overlays only on your personal wishlist to prevent some server strain. 
